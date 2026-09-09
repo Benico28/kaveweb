@@ -65,8 +65,8 @@ header{
 }
 
 .idezet{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .kartyak{
@@ -74,7 +74,25 @@ header{
     padding-top: 7%;
     padding-bottom: 7%;
 }
+.card{
+    margin: 0 auto;
+    width: 80% !important;
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.712) !important;
+}
 
 footer{
     background-color: #0C0C0E;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(22px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 24px;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.6),   /* felső belső csillanás */
+    inset 0 -1px 1px rgba(255, 255, 255, 0.15), /* alsó finom fény */
+    0 8px 32px rgba(0, 0, 0, 0.18);              /* külső mélységérzet */
+}
+.kartyak img{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.836);
 }
