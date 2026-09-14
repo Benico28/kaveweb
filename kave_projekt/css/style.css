@@ -10,7 +10,7 @@ nav ul li{
     display: inline;
 }
 .navs {
-    z-index: 1000;
+    position: relative; z-index: 1001;
     
 }
 .marad{
@@ -19,6 +19,7 @@ nav ul li{
     left: 0;
     width: 100%;
     background-color: #0C0C0E;
+    z-index: 1000;
 }
 .frontpg{
     padding-top: 88px
@@ -50,7 +51,7 @@ header{
     background-position: center;
     background-size: 100%;
     height:  100vh;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
 
 }
 .marketing{
@@ -64,14 +65,8 @@ header{
     padding-left: 15%;
 }
 
-.idezet{
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-
 .kartyak{
-    box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.25);
-    padding-top: 7%;
+    padding-top: 3%;
     padding-bottom: 7%;
 }
 .card{
@@ -89,10 +84,24 @@ footer{
   border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: 24px;
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.6),   /* felső belső csillanás */
-    inset 0 -1px 1px rgba(255, 255, 255, 0.15), /* alsó finom fény */
-    0 8px 32px rgba(0, 0, 0, 0.18);              /* külső mélységérzet */
+    inset 0 1px 1px rgba(255, 255, 255, 0.6),  
+    inset 0 -1px 1px rgba(255, 255, 255, 0.15), 
+    0 8px 32px rgba(0, 0, 0, 0.18);              
 }
 .kartyak img{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.836);
+}
+
+.leirasok{
+    margin-top: 3%;
+}
+.leirasokalso, .hires{
+    margin-top: 5%;
+}
+.szemelyzet{
+    align-items: center; 
+}
+.hires, .kartyak{
+    box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
 }
