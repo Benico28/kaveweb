@@ -6,8 +6,10 @@ body{
   font-style: normal;
 }
 nav ul li{
-    list-style-type: none;
     display: inline;
+}
+footer ul li, nav ul li{
+    list-style-type: none;
 }
 .navs {
     position: relative; z-index: 1001;
@@ -18,13 +20,12 @@ nav ul li{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #0C0C0E;
     z-index: 1000;
 }
 .frontpg{
     padding-top: 88px
 }
-header a{
+header a, footer a{
     text-decoration: none;
 }
 
@@ -39,10 +40,10 @@ header a{
     0 8px 32px rgba(0, 0, 0, 0.18);              
 }
 
-header, .frontpage, header a{
+header, .frontpage, header a, footer a{
     color: #fff;
 }
-header a:hover{
+header a:hover, footer a:hover{
     color: #ccc;
 }
 header{
@@ -72,36 +73,39 @@ header{
 .card{
     margin: 0 auto;
     width: 80% !important;
-    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.712) !important;
+    box-shadow: 0 20px 40px rgba(14, 14, 14, 0.712) !important;
 }
 
-footer{
-    background-color: #0C0C0E;
-}
 .glass {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(26, 26, 26, 0.18);
   backdrop-filter: blur(22px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(15, 15, 15, 0.45);
   border-radius: 24px;
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.6),  
-    inset 0 -1px 1px rgba(255, 255, 255, 0.15), 
+    inset 0 1px 1px rgba(12, 12, 12, 0.6),  
+    inset 0 -1px 1px rgba(19, 19, 19, 0.15), 
     0 8px 32px rgba(0, 0, 0, 0.18);              
 }
 .kartyak img{
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.836);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.466);
 }
 
 .leirasok{
     margin-top: 3%;
 }
-.leirasokalso, .hires{
+.leirasokalso, .mentes{
     margin-top: 5%;
 }
 .szemelyzet{
     align-items: center; 
 }
-.hires, .kartyak{
-    box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.9);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
+html, body{
+    margin: 0;
+    padding: 0;
+}
+footer, .marad{
+    background-color: #0C0C0E;
+}
+html{
+    background-color: #0C0C0E;
 }
